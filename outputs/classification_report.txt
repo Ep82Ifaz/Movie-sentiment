@@ -1,0 +1,17 @@
+Best model: Logistic Regression
+
+              precision    recall  f1-score   support
+
+    negative     0.9113    0.8905    0.9008      4940
+    positive     0.8937    0.9140    0.9037      4977
+
+    accuracy                         0.9023      9917
+   macro avg     0.9025    0.9022    0.9023      9917
+weighted avg     0.9025    0.9023    0.9023      9917
+
+
+Model comparison:
+                  Model  Accuracy  Precision   Recall  F1-score
+    Logistic Regression  0.902289   0.893713 0.914004  0.903745
+         SGD Classifier  0.896037   0.892715 0.901145  0.896910
+Multinomial Naive Bayes  0.877281   0.870955 0.886880  0.878845
